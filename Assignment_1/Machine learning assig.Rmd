@@ -1,0 +1,42 @@
+---
+title: "Machine learning"
+author: "Sai Gautham Sabhavathu"
+date: "1/30/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup}
+#Reference :- https://www.premierleague.com/tables
+data1 <- read.csv("C:/Users/gauth/OneDrive/Desktop/Premier League 2021-22 Points Table.csv")
+data1
+#The selected data is presented above. 
+#The table represents the points table of the English Premier league of the season.
+
+mean(data1$W)
+sd(data1$W)
+# The above values represent descriptive statistics 
+#for a selection of quantitative  variables.
+
+table(data1$Leagues)
+str(data1)
+# The above values represent categorical 
+#descriptive analysis of the variables.
+
+data1$W_Trasnformed = (data1$W - mean(data1$W)/sd(data1$W))
+data1$W_Trasnformed
+#Transformation of variables has been done above.
+
+hist(data1$Pts)
+#The above graphical representation is a histogram.  
+#The selected variable is the points.
+
+x <- data1$MP
+y <- data1$W
+plot(x,y, main = "Matches played and the number of wins", xlab = "Matches played",ylab = "Wins")
+#The above graphical representation is a scatterplot. 
+#The selected variables are Matches played and Wins
+
+```
+

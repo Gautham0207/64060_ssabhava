@@ -1,0 +1,11 @@
+SNO,Squad,MP,W,D,L,GF,GA,GD,Pts,xG,xGA,xGD,xGD/90,Leagues
+1, Manchester City,23,18,3,2,55,14,41,57,51.5,16,35.5,1.54,Champions league
+2, Liverpool,22,14,6,2,58,19,39,48,54.1,23,31.1,1.42,Champions league
+3, Chelsea,24,13,8,3,48,18,30,47,40.8,22.1,18.7,0.78,Champions league
+4, Manchester Utd,22,11,5,6,36,30,6,38,31.9,32.9,-1,-0.05,Champions league
+5, West Ham,23,11,4,8,41,31,10,37,33.4,29.5,3.8,0.17,EUFA Europa League
+6, Arsenal,21,11,3,7,33,25,8,36,30.9,28.8,2.2,0.1,No league
+7, Tottenham,20,11,3,6,26,24,2,36,31.6,21.4,10.2,0.51,No league
+8, Wolves,21,10,4,7,19,16,3,34,20.9,27.1,-6.2,-0.29,No league
+9, Brighton,22,6,12,4,23,23,0,30,25.7,26.9,-1.3,-0.06,Relegation
+10, Leicester City,20,7,5,8,34,37,-3,26,31.1,36.4,-5.3,-0.27,Relegation
